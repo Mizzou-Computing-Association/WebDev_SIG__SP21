@@ -8,7 +8,7 @@ This project is a remake of the [MCA website](http://mca.missouri.edu/).
 - Old MCA website: http://mca.missouri.edu/ 
 - Old MCA website GitHub: https://github.com/Mizzou-Computing-Association/mizzoumca 
 - Figma for MCA Website Mockup Prototype: https://www.figma.com/file/XaT8BB89mueG7Okac3Jqcf/mca-website?node-id=0%3A1 
-
+- Web Dev SIG SP2021 Google Drive folder: https://drive.google.com/drive/folders/1cHIyRx2DwY7NX5SWOhZUr5CP1zNEmDNT?usp=sharing
 - Material (design):
 
   - Old website appeared to use this
