@@ -2,3 +2,26 @@
 
 
 This project is a remake of the [MCA website](http://mca.missouri.edu/).
+
+***Quick Links:***
+
+- Old MCA website: http://mca.missouri.edu/ 
+- Old MCA website GitHub: https://github.com/Mizzou-Computing-Association/mizzoumca 
+- Figma for MCA Website Mockup Prototype: https://www.figma.com/file/XaT8BB89mueG7Okac3Jqcf/mca-website?node-id=0%3A1 
+
+- Material (design):
+
+  - Old website appeared to use this
+https://material.io/develop/web 
+  - =======>> Dark theme <<=======  https://material.io/design/color/dark-theme.html 
+  - The color system https://material.io/design/color/the-color-system.html#color-usage-and-palettes 
+  - Code...help???
+https://codelabs.developers.google.com/codelabs/mdc-101-web/#0 
+
+***Housekeeping Stuff:***
+- Where are we hosting this??
+- Firebase?
+- AWS? Old website appeared to use this
+- Google Cloud? Mizzou recently partnered with Google, special pricing?
+- Screen reader to test accessibility
+
