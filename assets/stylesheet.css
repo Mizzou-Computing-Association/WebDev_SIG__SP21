@@ -1,12 +1,19 @@
-body {
+body{
     background-color: E5E5E5;
+    
+}
+.body{
+  margin-left: 2rem; }
+
+h1{
+    color: #F1B82D;
 }
 
-h1 {
-    color: F1B82D;
-}
-
-.accent {
+.accent{
     background-color: black;
-    color: F1B82D;
+    color: #F1B82D;
+}
+
+#navbar{
+  background-color: black;
 }
