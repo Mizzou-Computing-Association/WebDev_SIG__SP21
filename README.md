@@ -3,8 +3,8 @@
 This project is a remake of the [MCA website](http://mca.missouri.edu/).
 
 - repl.it 
-Project link: https://repl.it/@Ulincsys/WebDevSIGSP21 
-Home Page [Preview](https://webdevsigsp21.ulincsys.repl.co/HTML/index.html)
+  - Project link: https://repl.it/@Ulincsys/WebDevSIGSP21 
+  - Home Page [Preview](https://webdevsigsp21.ulincsys.repl.co/HTML/index.html)
 
 ***Quick Links:***
 
