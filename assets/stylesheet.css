@@ -114,3 +114,30 @@ font-size: 1.75rem;
 .sig .name{
   margin-left: 1.5rem; 
 }
+
+.sig-desc{
+  margin-left: 4rem;
+  margin-right:4rem; 
+  background-color: #222121; 
+  color: white; 
+  display: none; 
+}
+
+.sig-desc p{
+  padding: 1rem; 
+  font-family: 'Lato', sans-serif;
+}
+
+.sig-desc h2{
+  font-size: 2rem;
+  color: white; 
+  font-weight: 600;
+  margin-left: 1rem; 
+}
+
+.sig-desc h3{
+  margin-left: 1rem; 
+  font-weight: 400;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5rem; 
+}
