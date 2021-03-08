@@ -147,3 +147,20 @@ font-size: 1.75rem;
   font-family: 'Source Code Pro', monospace;
   font-size: 1.5rem; 
 }
+
+footer{
+  background-color: black;
+   color: #F1B82D; 
+   font-family: 'Source Code Pro', monospace;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer h3{
+  padding: 1rem; 
+}
+
+
+
+
