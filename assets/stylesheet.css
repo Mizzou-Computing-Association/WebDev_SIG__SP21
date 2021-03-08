@@ -64,12 +64,19 @@ margin-right:2rem; }
   color: white; 
   font-family: 'Source Code Pro', monospace;
 }
+.terminal h2{
+  margin-left: 4rem;
+}
 
+.terminal h3{
+  margin-left: 4rem;
+  color: #F1B82D;
+}
 .terminal h1{
 font-weight: 600; 
 margin-left: 4rem; 
 padding-top: 1rem; 
-font-size: 2rem; 
+font-size: 1.75rem; 
 }
 
 #line{
@@ -81,4 +88,29 @@ font-size: 2rem;
   padding-top: 1.25rem; 
   padding-left: .5rem; 
   font-size: 1.5rem; 
+}
+
+.sig{
+  background-color: black;
+  margin-left: 4rem;
+  margin-right: 4rem; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+}
+
+.sig h1{
+  padding: 1rem; 
+  color: #F1B82D; 
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600; 
+  font-size: 2.5rem;  
+}
+
+.plus{
+  margin-right: 1.5rem; 
+}
+
+.sig .name{
+  margin-left: 1.5rem; 
 }
