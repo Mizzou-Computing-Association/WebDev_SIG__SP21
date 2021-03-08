@@ -109,6 +109,12 @@ font-size: 1.75rem;
 
 .plus{
   margin-right: 1.5rem; 
+  display: inline; 
+}
+
+.minus{
+  display: none; 
+  margin-right: 1.5rem; 
 }
 
 .sig .name{
