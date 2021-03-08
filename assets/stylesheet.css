@@ -53,7 +53,7 @@ body p{
   margin-left: 2rem; }
 
 .center{
-  text-align:center; 
+  text-align: center; 
 }
 
 .caption{color: white; 
@@ -64,19 +64,25 @@ margin-right:2rem; }
   color: white; 
   font-family: 'Source Code Pro', monospace;
 }
+
+.terminal a{
+  text-decoration: none; 
+  color: #F1B82D; 
+}
 .terminal h2{
-  margin-left: 4rem;
+  margin-left: 5%;
 }
 
 .terminal h3{
-  margin-left: 4rem;
+  margin-left: 5%;
+  font-size: 1rem; 
   color: #F1B82D;
 }
 .terminal h1{
 font-weight: 600; 
-margin-left: 4rem; 
+margin-left: 5%;
 padding-top: 1rem; 
-font-size: 1.75rem; 
+font-size: 1rem; 
 }
 
 #line{
@@ -84,10 +90,15 @@ font-size: 1.75rem;
   flex-direction: row; 
 }
 
+
+#line .command{
+  margin-left: 1rem; 
+  margin-top: -.25rem; 
+}
 #line h2{
   padding-top: 1.25rem; 
-  padding-left: .5rem; 
-  font-size: 1.5rem; 
+  padding-right: 1.5rem; 
+  font-size: 1rem; 
 }
 
 .sig{
@@ -161,6 +172,12 @@ footer h3{
   padding: 1rem; 
 }
 
+.backgroundAccent {
+	background-color: #F1B82D;
+}
 
 
-
+/* Footer stuff */
+ul#orgs li {
+  list-style-type: none;
+}

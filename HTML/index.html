@@ -11,14 +11,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<script src="../assets/script.js"></script>
 </head>
 
 <!-- Bootstrap navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light" id = "navbar" >
   <div class="container-fluid">
-    <a href = "index.html"> <img src = "../assets/mca_logo.png" id = "mca-icon"> </a>
+    <a href = "index.html"> <img src = "../assets/mca_logo.png" id = "mca-icon" class="d-none d-md-block"> </a>
     <a class="navbar-brand" href="index.html">Mizzou Computing Association</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler backgroundAccent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" ></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -36,6 +37,8 @@
     </div>
   </div>
 </nav>
+
+<!-- Page Body -->
 <body>
   <br>
 <div class = "body">
@@ -53,16 +56,18 @@
   </script>
 </div>
 <br>
+
+<!-- Terminal Section -->
 <div class = "terminal">
   <div id = "line" > 
-  <h1>Mizzou_School_of_Engineering ~ </h1><h2>cd Mizzou_Computing_Association</h2>
+  <h1>Mizzou_School_of_Engineering ~ </h1><h2 class = "command">cd Mizzou_Computing_Association</h2>
     </div>
     <div id = "line" >
   <h1>Mizzou_School_of_Engineering/Mizzou_Computing_Association ~</h1>
-  <h2>ls</h2>
+  <h2 class = "command">ls</h2>
   </div>
   <h2>SIGS</h2>
-  <h3>---- Data Science </h3>
+  <h3><a onclick = "showDataScienceSection();">---- Data Science </a></h3>
   <h3>---- Game Development </h3>
   <h3>---- Interview Prep  </h3>
   <h3>---- Virtual Reality </h3>
@@ -75,8 +80,29 @@
 <i class="bi bi-instagram"></i>
 
 </body>
+
+<!-- Footer Section -->
 <footer>
-  <h3 class = "center" > Mizzou Computing Association © 2021 </h3>
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col">
+        <h4> Other Computing Orgs: </h4>
+        <ul id="orgs">
+          <li>DevelopHER</li>
+          <li>Mizzou UPE</li>
+          <li>Mizzou IEEE</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4 class = "center"> Mizzou Computing Association © 2021 </h4>
+        <!-- social icons -->
+      </div>
+      <div class="col">
+        <h4>Join our Mailing List!</h4>
+        
+      </div>
+    </div>
+  </div>
                   
 </footer>
 </html>
