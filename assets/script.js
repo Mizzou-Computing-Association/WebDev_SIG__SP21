@@ -15,6 +15,18 @@ function showDataScience(){
     document.getElementById('interview').style.display = "none"
     document.getElementById('game_dev').style.display = "none"
     plusMinus('data_sci_minus', 'data_sci_plus')
+    if (document.getElementById('vr_minus') !== "none"){
+      plusMinus('vr_plus', 'vr_minus')
+    }
+    if (document.getElementById('interview_minus') !== "none"){
+      plusMinus('interview_plus', 'interview_minus')
+    }
+    if (document.getElementById('web_dev_minus') !== "none"){
+      plusMinus('web_dev_plus', 'web_dev_minus')
+    }
+    if (document.getElementById('game_dev_minus') !== "none"){
+      plusMinus('game_dev_plus', 'game_dev_minus')
+    }
     }
 }
 
@@ -30,6 +42,18 @@ function showVirt(){
     document.getElementById('interview').style.display = "none"
     document.getElementById('game_dev').style.display = "none"
    plusMinus('vr_minus', 'vr_plus')
+   if (document.getElementById('data_sci_minus') !== "none"){
+      plusMinus('data_sci_plus', 'data_sci_minus')
+    }
+    if (document.getElementById('interview_minus') !== "none"){
+      plusMinus('interview_plus', 'interview_minus')
+    }
+    if (document.getElementById('web_dev_minus') !== "none"){
+      plusMinus('web_dev_plus', 'web_dev_minus')
+    }
+    if (document.getElementById('game_dev_minus') !== "none"){
+      plusMinus('game_dev_plus', 'game_dev_minus')
+    }
     }
 }
 
@@ -45,6 +69,18 @@ function showWebDev(){
     document.getElementById('interview').style.display = "none"
     document.getElementById('game_dev').style.display = "none"
     plusMinus('web_dev_minus', 'web_dev_plus')
+    if (document.getElementById('vr_minus') !== "none"){
+      plusMinus('vr_plus', 'vr_minus')
+    }
+    if (document.getElementById('interview_minus') !== "none"){
+      plusMinus('interview_plus', 'interview_minus')
+    }
+    if (document.getElementById('data_sci_minus') !== "none"){
+      plusMinus('data_sci_plus', 'data_sci_minus')
+    }
+    if (document.getElementById('game_dev_minus') !== "none"){
+      plusMinus('game_dev_plus', 'game_dev_minus')
+    }
     }
 }
 
@@ -60,6 +96,18 @@ function showGameDev(){
     document.getElementById('interview').style.display = "none"
     document.getElementById('data_sci').style.display = "none"
     plusMinus('game_dev_minus', 'game_dev_plus')
+    if (document.getElementById('vr_minus') !== "none"){
+      plusMinus('vr_plus', 'vr_minus')
+    }
+    if (document.getElementById('interview_minus') !== "none"){
+      plusMinus('interview_plus', 'interview_minus')
+    }
+    if (document.getElementById('web_dev_minus') !== "none"){
+      plusMinus('web_dev_plus', 'web_dev_minus')
+    }
+    if (document.getElementById('data_sci_minus') !== "none"){
+      plusMinus('data_sci_plus', 'data_sci_minus')
+    }
     }
 }
 
@@ -75,5 +123,17 @@ function showInterview(){
     document.getElementById('data_sci').style.display = "none"
     document.getElementById('game_dev').style.display = "none"
     plusMinus('interview_minus', 'interview_plus')
+    if (document.getElementById('vr_minus') !== "none"){
+      plusMinus('vr_plus', 'vr_minus')
+    }
+    if (document.getElementById('data_sci_minus') !== "none"){
+      plusMinus('data_sci_plus', 'data_sci_minus')
+    }
+    if (document.getElementById('web_dev_minus') !== "none"){
+      plusMinus('web_dev_plus', 'web_dev_minus')
+    }
+    if (document.getElementById('game_dev_minus') !== "none"){
+      plusMinus('game_dev_plus', 'game_dev_minus')
+    }
     }
 }
