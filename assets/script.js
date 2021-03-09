@@ -138,7 +138,3 @@ function showInterview(){
     }
 }
 
-function showDataScienceSection(){
-  window.open('sigs.html');
-  showDataScience();
-}

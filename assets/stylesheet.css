@@ -25,6 +25,9 @@
   color: #F1B82D;
 }
 
+#navbar a:hover{
+  color: white; 
+}
 #navbar .navbar-toggler{ color: #F1B82D;}
 #mca-icon{
   border-radius: 5%;
@@ -68,6 +71,10 @@ margin-right:2rem; }
 .terminal a{
   text-decoration: none; 
   color: #F1B82D; 
+}
+
+.terminal a:hover{
+  color: white; 
 }
 .terminal h2{
   margin-left: 5%;
@@ -180,4 +187,14 @@ footer h3{
 /* Footer stuff */
 ul#orgs li {
   list-style-type: none;
+}
+
+
+footer a{
+  text-decoration: none; 
+  color: #F1B82D;
+}
+
+footer a:hover{
+  color: white; 
 }
