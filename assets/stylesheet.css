@@ -198,3 +198,7 @@ footer a{
 footer a:hover{
   color: white; 
 }
+
+#footersm {
+  list-style: none;
+}
