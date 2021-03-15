@@ -202,3 +202,15 @@ footer a:hover{
 #footersm {
   list-style: none;
 }
+
+.social-img {
+  width: 30%;
+  height: 60px;
+  float: left;
+  margin: 5px;
+}
+
+#code {
+  text-align: right;
+  margin-right: 40px;
+}
