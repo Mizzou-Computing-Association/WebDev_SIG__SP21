@@ -91,6 +91,8 @@ font-weight: 600;
 margin-left: 5%;
 padding-top: 1rem; 
 font-size: 1rem; 
+overflow-wrap: break-word;
+word-break: break-all;
 }
 
 #line{
