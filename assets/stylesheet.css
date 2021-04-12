@@ -53,8 +53,21 @@ body h2{
 body p{
   font-family: 'Lato', sans-serif;
 }
+
 .body{
-  margin-left: 2rem; }
+  margin-left: 2rem;
+	width: 60%;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.card-padding {
+	padding: 20px;
+	width: 75%;
+	margin: auto;
+}
 
 .center{
   text-align: center; 
@@ -253,3 +266,8 @@ footer a:hover{
   background: black;
 }
 
+.role {
+  text-align: center;
+  color: #F1B82D;
+  border-bottom: 2px solid #F1B82D;
+}
