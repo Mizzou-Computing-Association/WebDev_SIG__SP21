@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
 	<meta charset="utf-8">
 	<title>Mizzou Computing Association | Home </title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
 	 crossorigin="anonymous">
 	<link href="../assets/stylesheet.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="../assets/mca_logo.png" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-<script src="../assets/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-  crossorigin="anonymous">
-  </script>
+	<link rel="icon" type="image/png" href="../assets/mca_logo.png" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<script src="../assets/script.js">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+	 crossorigin="anonymous">
+
+	</script>
 </head>
 
 
 <!-- Bootstrap navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id = "navbar" >
-  <div class="container-fluid">
-    <a href = "index.html"> <img src = "../assets/mca_logo.png" id = "mca-icon" class="d-none d-md-block"> </a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+	<div class="container-fluid">
+		<a href="index.html"> <img src = "../assets/mca_logo.png" id = "mca-icon" class="d-none d-md-block"> </a>
     <a class="navbar-brand" href="index.html">Mizzou Computing Association</a>
     <button class="navbar-toggler backgroundAccent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" ></span>
@@ -43,15 +46,16 @@
 
 <br>
 <body>
-
+<!-- Accordion start -->
+<!-- Web Development Accordion -->
 <div class="accordion accordion-flush" id="SIG_accordion" style="display: flex; flex-direction: column; padding-top: 3%; padding-left: 3%; padding-right: 3%;">
-	<div class="accordion-item" style="background-color: black;">
+  <div class="accordion-item" style="background-color: black;">
 		<h1 class="accordion-header" id="headingOne">
-			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#webDevelopment" aria-expanded="false" aria-controls="webDevelopment">
 				Web Development
 			</button>
 		</h1>
-		<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#SIG_accordion">
+		<div id="webDevelopment" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#SIG_accordion">
 			<div class="accordion-body" style="background-color: #222121;">
 				<h2>Virtual - Mondays at 4pm</h2><h3>Co-Leads: John McGinness & Erika Zhou</h3>
         <p>The Web Development Special Interest Group is a mini-club to learn and code together and build web project(s). You may learn skills in programming languages such as HTML, CSS, and JavaScript; tools such as GitHub, Figma, and Replit; and frameworks such as Bootstrap. Also, you may gain experience with working in a team, prototyping, and visual design. No prior experience is needed to join; come online and code with us!</p>
@@ -59,14 +63,16 @@
 		</div>
 	</div>
 </div>
+
+<!-- Virtual Reality Accordion -->
 <div class="accordion accordion-flush" id="SIG_accordion" style="display: flex; flex-direction: column; padding-top: 3%; padding-left: 3%; padding-right: 3%;">
 	<div class="accordion-item" style="background-color: black;">
 		<h1 class="accordion-header" id="headingTwo">
-			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#virtualReality" aria-expanded="false" aria-controls="virtualReality">
 				Virtual Reality
 			</button>
 		</h1>
-		<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#SIG_accordion">
+		<div id="virtualReality" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#SIG_accordion">
 			<div class="accordion-body" style="background-color: #222121;">
 				<h2>Virtual - Wednesdays at 6pm</h2>
 				<h3>Lead: John McGinness</h3>
@@ -76,14 +82,15 @@
 	</div>
 </div>
 
+<!-- Data Science Accordion -->
 <div class="accordion accordion-flush" id="SIG_accordion" style="display: flex; flex-direction: column; padding-top: 3%; padding-left: 3%; padding-right: 3%;">
 	<div class="accordion-item" style="background-color: black;">
 		<h1 class="accordion-header" id="headingThree">
-			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dataScience" aria-expanded="false" aria-controls="dataScience">
 				Data Science
 			</button>
 		</h1>
-		<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#SIG_accordion">
+		<div id="dataScience" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#SIG_accordion">
 			<div class="accordion-body" style="background-color: #222121;">
 				<h2>Virtual - Fridays at 4pm</h2><h3>Lead: Gabriella Miesner</h3>
         <p>The Data Science Special Interest group is a place where you will learn to visualize and analyze data, using either JavaScript or Python. You may learn libraries such as D3.js, matplotlib, seaborn, pandas, and much much more. All of our projects are open source on <a href="https://github.com/MCA-Data-Science" target="_blank">github</a>, so feel free to take a look around before joining us! Beginners are not only welcome here, they are heavily encouraged to join.</p>
@@ -92,14 +99,15 @@
 	</div>
 </div>
 
+<!-- Game Development Accordion -->
 <div class="accordion accordion-flush" id="SIG_accordion" style="display: flex; flex-direction: column; padding-top: 3%; padding-left: 3%; padding-right: 3%;">
 	<div class="accordion-item" style="background-color: black;">
-		<h1 class="accordion-header" id="headingThree">
-			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+		<h1 class="accordion-header" id="headingFour">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gameDevelopment" aria-expanded="false" aria-controls="gameDevelopment">
 				Game Development
 			</button>
 		</h1>
-		<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#SIG_accordion">
+		<div id="gameDevelopment" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#SIG_accordion">
 			<div class="accordion-body" style="background-color: #222121;">
 				<h2>Virtual - Wednesdays at 6pm</h2><h3>Lead: Trey Shaw</h3>
         <p>The game dev SIG teaches members how to implement different game mechanics in Unity using C#. It helps teach object oriented principles and is targeted at people with any level of coding experience.</p>
@@ -108,14 +116,15 @@
 	</div>
 </div>
 
+<!-- Interview Prep Accordion-->
 <div class="accordion accordion-flush" id="SIG_accordion" style="display: flex; flex-direction: column; padding-top: 3%; padding-left: 3%; padding-right: 3%;">
 	<div class="accordion-item" style="background-color: black;">
 		<h1 class="accordion-header" id="headingThree">
-			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#interviewPrep" aria-expanded="false" aria-controls="interviewPrep">
 				Interview Prep
 			</button>
 		</h1>
-		<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#SIG_accordion">
+		<div id="interviewPrep" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#SIG_accordion">
 			<div class="accordion-body" style="background-color: #222121;">
 				<h2>Naka 222 - Tuesdays at 6pm</h2><h3>Lead: Sam Bishop</h3>
         <p>
@@ -137,6 +146,7 @@
 		</div>
 	</div>
 </div>
+<!-- Accordion end -->
 
 <br>
 
@@ -198,6 +208,20 @@
                   
 </footer>
 <!-- end of Footer Section -->
-
-  </body>
+</body>
+	<script>
+		// Get the URL from the URL bar
+		const urlParams = new URLSearchParams(window.location.search);
+		// Extract the "sig" parameter from the URL (if it exists)
+		const myParam = urlParams.get('sig');
+		if(myParam != null) {
+			// If the "sig" parameter exists, assume it is the ID of an accordion
+			// Grab the accordion element with the id of the "sig" parameter
+			var accordion = document.getElementById(myParam)
+			// Make an Async call to the Bootstrap Collapse class and set toggle to true
+			var bsCollapse = new bootstrap.Collapse(accordion, {
+				toggle: true
+			})
+		}
+	</script>
 </html>

@@ -1,3 +1,4 @@
+/* Old accordion code */
 function plusMinus(plus, minus){
   document.getElementById(plus).style.display = "inline"
     document.getElementById(minus).style.display = "none"
@@ -137,4 +138,4 @@ function showInterview(){
     }
     }
 }
-
+/* end of old accordion code */
