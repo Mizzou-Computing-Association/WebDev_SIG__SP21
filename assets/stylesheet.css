@@ -148,6 +148,21 @@ word-break: break-all;
 	background-color: black;
 }
 
+.accordion-button::after {
+	background-image: none;
+	content: "-";
+	height: 3.25rem;
+	width: 1.5rem;
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: none;
+	content: "+";
+	height: 3.25rem;
+	width: 1.5rem;
+}
+
+/*
 .accordion-item button::after {
 	content: "-";
 }
@@ -155,6 +170,7 @@ word-break: break-all;
 .accordion-item button.collapsed::after {
     content: "+"; 
 }
+*/
 
 .show{
 	background-color: black;
@@ -268,7 +284,7 @@ footer a:hover{
 }
 
 
-#SIG_accordion button{
+#SIG_accordion button {
    padding: 1rem; 
   color: #F1B82D; 
   font-family: 'Source Code Pro', monospace;
@@ -283,7 +299,7 @@ footer a:hover{
   border-bottom: 2px solid #F1B82D;
 }
 
-// style the exec page's cards
+/* style the exec page's cards */
 .card-body {
   min-height: 300px;
 }
