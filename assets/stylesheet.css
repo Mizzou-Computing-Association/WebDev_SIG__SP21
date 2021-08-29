@@ -316,3 +316,7 @@ footer a:hover{
 h2.big-gold-header {
   font-size: 300%;
 }
+
+#widgetBot {
+  text-align: right;
+}
